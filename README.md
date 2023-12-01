@@ -13,11 +13,11 @@ Copy the following code and paste it into the console, then press Enter:
 
 ```
 function ConnectButton(){
-    console.log("Connect pushed"); 
+    console.log("Connect button pressed"); 
     document.querySelector("#top-toolbar > colab-connect-button").shadowRoot.querySelector("#connect").click() 
 }
 
-var colab = setInterval(ConnectButton,60000);
+var press = setInterval(ConnectButton,60000);
 ```
 
 This code will automatically click the Connect button every minute, which should prevent the Colab runtime from disconnecting due to inactivity.
@@ -26,7 +26,7 @@ This code will automatically click the Connect button every minute, which should
 If you want to stop the code from running, you can use the clearInterval() function. Uncomment the following line and run it in the console:
 
 ```
-clearInterval(colab)
+clearInterval(press)
 ```
 
 This will stop the automatic clicking of the Connect button.
