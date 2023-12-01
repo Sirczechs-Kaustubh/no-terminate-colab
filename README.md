@@ -2,7 +2,7 @@
 This repository contains a simple JavaScript code snippet that helps to prevent Google Colab’s runtime from disconnecting. This is particularly useful for long-running machine learning tasks.
 
 ## Credit
-This code is based on the work of Patrick von Platen from Hugging Face. You can find the original post here.
+This code is based on the work of Patrick von Platen from Hugging Face.
 
 ## Usage
 Open Google Colab and start your project.
